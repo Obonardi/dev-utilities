@@ -32,3 +32,13 @@
 
 # Contributions are welcome! Please feel free to open an issue or submit a pull request if you have ideas for improving these utilities.
 
+
+
+\## Utilities Included
+
+\* \*\*Bulk Renamer (`bulk\_renamer.py`)\*\*: A Python utility that automates the renaming of files in a directory by applying a user-defined prefix and sequential numbering.
+
+&#x20;   \* \*\*Usage\*\*: `python bulk\_renamer.py`
+
+&#x20;   \* \*\*Features\*\*: Handles extension preservation and includes a self-reference safety check.
+
