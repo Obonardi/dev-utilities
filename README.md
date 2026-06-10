@@ -1,44 +1,32 @@
-# \# dev-utilities
+\# Dev Utilities
 
-# 
-
-# \[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# 
-
-# A curated collection of automation scripts designed to streamline local development workflows and minimize repetitive configuration tasks.
-
-# 
-
-# \## Features
-
-# \* \*\*Workflow Automation\*\*: Scripts to handle environment setup and cleanup.
-
-# \* \*\*Modular Design\*\*: Each utility is built to be independent and easily integrated into larger systems.
-
-# 
-
-# \## Quick Start
-
-# 1\. Clone the repository: `git clone https://github.com/Obonardi/dev-utilities.git`
-
-# 2\. Navigate to the desired script directory.
-
-# 3\. Execute the script: `node <script-name>.js` (or your preferred runtime).
-
-# 
-
-# \## Contribution
-
-# Contributions are welcome! Please feel free to open an issue or submit a pull request if you have ideas for improving these utilities.
+A collection of Python-based automation tools designed to streamline daily development and file management tasks.
 
 
 
-\## Utilities Included
+\## Tools Included
 
-\* \*\*Bulk Renamer (`bulk\_renamer.py`)\*\*: A Python utility that automates the renaming of files in a directory by applying a user-defined prefix and sequential numbering.
+\* \*\*Bulk Renamer (`bulk\_renamer.py`)\*\*: Automates file renaming with user-defined prefixes and sequential numbering.
 
-&#x20;   \* \*\*Usage\*\*: `python bulk\_renamer.py`
+\* \*\*Auto-Sorter (`file\_sorter.py`)\*\*: Automatically organizes files into category-specific subfolders based on file extensions.
 
-&#x20;   \* \*\*Features\*\*: Handles extension preservation and includes a self-reference safety check.
+\* \*\*Data Converter (`data\_converter.py`)\*\*: Efficiently transforms data formats (JSON to CSV) for better reporting and analysis.
+
+\* \*\*Environment Validator (`env\_validator.py`)\*\*: Ensures required system configurations are set before application execution to prevent runtime errors.
+
+\* \*\*Backup Utility (`backup\_utility.py`)\*\*: Creates time-stamped, compressed ZIP backups of specified directories to ensure data integrity.
+
+
+
+\## Usage
+
+Each script can be executed directly from the terminal:
+
+`python <script\_name>.py`
+
+
+
+\## Contributing
+
+These tools were developed as modular, maintainable utilities to optimize development workflows. Feel free to open an issue or submit a pull request if you have suggestions for improvement.
 
